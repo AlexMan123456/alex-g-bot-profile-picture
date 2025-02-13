@@ -1,6 +1,9 @@
 from manim import *
 
-# manim profile-picture.py -qm -t ProfilePicture
+# Run this command for transparent background
+    # manim profile-picture.py -qm -t ProfilePicture
+# Run this command for regular background
+    # manim profile-picture.py -qm ProfilePicture
 class ProfilePicture(Scene):
     def construct(self):
         # Create robot face
